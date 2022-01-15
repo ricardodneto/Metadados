@@ -1,0 +1,65 @@
+﻿@model Metadados.Models.Objeto
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Department</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="sky_objeto" />
+            <div class="form-group">
+                <label asp-for="sky_objeto_configuracao" class="control-label"></label>
+                <input asp-for="sky_objeto_configuracao" class="form-control" />
+                <span asp-validation-for="sky_objeto_configuracao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sky_objeto_localizacao" class="control-label"></label>
+                <input asp-for="sky_objeto_localizacao" class="form-control" />
+                <span asp-validation-for="sky_objeto_localizacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nom_objeto" class="control-label"></label>
+                <input asp-for="nom_objeto" class="form-control" />
+                <span asp-validation-for="nom_objeto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nom_compactacao" class="control-label"></label>
+                <input asp-for="nom_compactacao" class="form-control" />
+                <span asp-validation-for="nom_compactacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nom_tabela" class="control-label"></label>
+                <input asp-for="nom_tabela" class="form-control" />
+                <span asp-validation-for="nom_tabela" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nom_entidade" class="control-label"></label>
+                <input asp-for="nom_entidade" class="form-control" />
+                <span asp-validation-for="nom_entidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dsc_coluna_ranges" class="control-label"></label>
+                <input asp-for="dsc_coluna_ranges" class="form-control" />
+                <span asp-validation-for="dsc_coluna_ranges" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

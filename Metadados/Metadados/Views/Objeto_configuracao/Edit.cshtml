@@ -1,0 +1,56 @@
+﻿@model Metadados.Models.Objeto_configuracao
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Objeto Configuração</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="sky_objeto_configuracao" />
+            <div class="form-group">
+                <label asp-for="dsc_delimitador_coluna" class="control-label"></label>
+                <input asp-for="dsc_delimitador_coluna" class="form-control" />
+                <span asp-validation-for="dsc_delimitador_coluna" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dsc_delimitador_detalhe" class="control-label"></label>
+                <input asp-for="dsc_delimitador_detalhe" class="form-control" />
+                <span asp-validation-for="dsc_delimitador_detalhe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dsc_qualificador_texto" class="control-label"></label>
+                <input asp-for="dsc_qualificador_texto" class="form-control" />
+                <span asp-validation-for="dsc_qualificador_texto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dsc_encode" class="control-label"></label>
+                <input asp-for="dsc_encode" class="form-control" />
+                <span asp-validation-for="dsc_encode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="num_pular_linha" class="control-label"></label>
+                <input asp-for="num_pular_linha" class="form-control" />
+                <span asp-validation-for="num_pular_linha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

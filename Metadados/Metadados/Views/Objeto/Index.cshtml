@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Metadados.Models.Objeto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_objeto_configuracao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_objeto_localizacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_objeto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_compactacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_tabela)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_entidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dsc_coluna_ranges)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_objeto_configuracao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_objeto_localizacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_objeto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_compactacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_tabela)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_entidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dsc_coluna_ranges)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.sky_objeto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.sky_objeto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.sky_objeto">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+}

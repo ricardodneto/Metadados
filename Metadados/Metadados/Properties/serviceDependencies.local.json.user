@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-12-20T02:36:46.3409266Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-12-20T02:36:42.6189568Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b218b943-a671-488c-bdd8-de90180652dc"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "ProjetoWebFullStack"
+    }
+  }
+}

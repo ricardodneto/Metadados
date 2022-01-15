@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Metadados.Models.Objeto_localizacao>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_localizacao_tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_objeto_identificador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dsc_endereco_localizacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.num_porta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nom_password)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.nom_fornecedor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_localizacao_tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_objeto_identificador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dsc_endereco_localizacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.num_porta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom_password)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.nom_fornecedor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.sky_objeto_localizacao">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.sky_objeto_localizacao">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.sky_objeto_localizacao">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+}

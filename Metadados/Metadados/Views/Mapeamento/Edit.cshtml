@@ -1,0 +1,50 @@
+﻿@model Metadados.Models.Mapeamento
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Department</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="sky_mapeamento" />
+            <div class="form-group">
+                <label asp-for="sky_pipeline" class="control-label"></label>
+                <input asp-for="sky_pipeline" class="form-control" />
+                <span asp-validation-for="sky_pipeline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sky_objeto_destino" class="control-label"></label>
+                <input asp-for="sky_objeto_destino" class="form-control" />
+                <span asp-validation-for="sky_objeto_destino" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sky_objeto_origem" class="control-label"></label>
+                <input asp-for="sky_objeto_origem" class="form-control" />
+                <span asp-validation-for="sky_objeto_origem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dsc_mapeamento_colunas" class="control-label"></label>
+                <input asp-for="dsc_mapeamento_colunas" class="form-control" />
+                <span asp-validation-for="dsc_mapeamento_colunas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

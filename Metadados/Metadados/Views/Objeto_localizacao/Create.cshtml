@@ -1,0 +1,66 @@
+﻿@model Metadados.Models.ViewModels.Objeto_localizacaoViewModel
+
+
+
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Cadastro_objeto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+             <label asp-for="Objeto_localizacao.sky_localizacao_tipo" class="control-label"></label>
+             <select asp-for="Objeto_localizacao.sky_localizacao_tipo" asp-items="@(new SelectList(Model.oLocalizacao_tipo,"sky_localizacao_tipo","nom_localizacao_tipo"))" class="form-control"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Objeto_localizacao.nom_objeto_identificador" class="control-label"></label>
+                <input asp-for="Objeto_localizacao.nom_objeto_identificador" class="form-control" />
+                <span asp-validation-for="Objeto_localizacao.nom_objeto_identificador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Objeto_localizacao.dsc_endereco_localizacao" class="control-label"></label>
+                <input asp-for="Objeto_localizacao.dsc_endereco_localizacao" class="form-control" />
+                <span asp-validation-for="Objeto_localizacao.dsc_endereco_localizacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+             <label asp-for="Objeto_localizacao.num_porta" class="control-label"></label>
+             <input asp-for="Objeto_localizacao.num_porta" class="form-control" />
+             <span asp-validation-for="Objeto_localizacao.num_porta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Objeto_localizacao.nom_usuario" class="control-label"></label>
+                <input asp-for="Objeto_localizacao.nom_usuario" class="form-control" />
+                <span asp-validation-for="Objeto_localizacao.nom_usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Objeto_localizacao.nom_password" class="control-label"></label>
+                <input asp-for="Objeto_localizacao.nom_password" class="form-control" />
+                <span asp-validation-for="Objeto_localizacao.nom_password" class="text-danger"></span>
+            </div>
+               <div class="form-group">
+                <label asp-for="Objeto_localizacao.nom_fornecedor" class="control-label"></label>
+                <input asp-for="Objeto_localizacao.nom_fornecedor" class="form-control" />
+                <span asp-validation-for="Objeto_localizacao.nom_fornecedor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,25 @@
+﻿@model Metadados.Models.Pipeline
+
+
+@{
+       ViewData["Title"] = "Delete";
+}
+<h3>Tem certeza que deseja deletar este objeto?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nom_pipeline)
+        </dt>
+
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="sky_pipeline" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> 
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Sidebars · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="~/lib/bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="~/lib/bootstrap/sidebars/sidebars.css" rel="stylesheet">
+
+</head>
+<body>
+
+<main>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-4>
+          <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-5 fw-semibold">Metadados</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          Cadastro Objeto
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Objeto" asp-action="Index">Objeto</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Objeto_configuracao" asp-action="Index">Objeto_configuracao</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Objeto_localizacao" asp-action="Index">Objeto_localizacao</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Objeto_tipo" asp-action="Index">Objeto_tipo</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Mapeamento" asp-action="Index">Mapeamento</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Pipeline" asp-action="Index">Pipeline</a></li>
+            <li><a class="link-dark rounded"asp-area="" asp-controller="Localizacao_tipo" asp-action="Index">Localizacao_tipo</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+    </ul>
+        </div>
+        <div class="col-md-8">
+              @RenderBody()
+             @RenderSection("Scripts")
+        </div>
+    </div>
+</div>
+
+  </main>
+
+   
+      
+    <script src="~/lib/bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
+    <script src="~/lib/bootstrap/sidebars/sidebars.js"></script>
+</body>
+</html>

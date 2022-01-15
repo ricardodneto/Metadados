@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Metadados.Models.Mapeamento>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_pipeline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_objeto_destino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sky_objeto_origem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dsc_mapeamento_colunas)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_pipeline)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_objeto_destino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sky_objeto_origem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dsc_mapeamento_colunas)
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.sky_mapeamento">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.sky_mapeamento">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.sky_mapeamento">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+}

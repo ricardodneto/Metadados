@@ -1,0 +1,50 @@
+﻿@model Metadados.Models.ViewModels.MapeamentoViewModel
+
+
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Cadastro_objeto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+             <label asp-for="Mapeamento.sky_pipeline" class="control-label"></label>
+             <select asp-for="Mapeamento.sky_pipeline" asp-items="@(new SelectList(Model.oPipeline,"sky_pipeline","nom_pipeline"))" class="form-control"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mapeamento.sky_objeto_destino" class="control-label"></label>
+                <input asp-for="Mapeamento.sky_objeto_destino" class="form-control" />
+                <span asp-validation-for="Mapeamento.sky_objeto_destino" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mapeamento.sky_objeto_origem" class="control-label"></label>
+                <input asp-for="Mapeamento.sky_objeto_origem" class="form-control" />
+                <span asp-validation-for="Mapeamento.sky_objeto_origem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+             <label asp-for="Mapeamento.dsc_mapeamento_colunas" class="control-label"></label>
+             <input asp-for="Mapeamento.dsc_mapeamento_colunas" class="form-control" />
+             <span asp-validation-for="Mapeamento.dsc_mapeamento_colunas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
