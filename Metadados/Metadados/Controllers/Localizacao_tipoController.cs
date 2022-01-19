@@ -38,8 +38,14 @@ namespace Metadados.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Localizacao_tipo Localizacao_tipo)
         {
-            _Localizacao_tipo_Services.Insert(Localizacao_tipo);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _Localizacao_tipo_Services.Insert(Localizacao_tipo);
+                return RedirectToAction("Index");
+
+            }
+            return View(Localizacao_tipo);
+
 
         }
         public IActionResult Delete(int? id)

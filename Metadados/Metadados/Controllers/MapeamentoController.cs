@@ -45,8 +45,18 @@ namespace Metadados.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Mapeamento Mapeamento)
         {
-            _Mapeamento_Services.Insert(Mapeamento);
-            return RedirectToAction("Index");
+            MapeamentoViewModel oObjetoViewModel = new MapeamentoViewModel();
+            oObjetoViewModel.Mapeamento = Mapeamento;   
+            oObjetoViewModel.oPipeline = _Pipeline_Services.FindAll();
+
+            if (ModelState.IsValid)
+            {
+                _Mapeamento_Services.Insert(Mapeamento);
+                return RedirectToAction("Index");
+
+            }
+            return View(oObjetoViewModel);
+
 
         }
         public IActionResult Delete(int? id)

@@ -19,6 +19,7 @@
             <div class="form-group">
              <label asp-for="Objeto_configuracao.sky_objeto_tipo" class="control-label"></label>
              <select asp-for="Objeto_configuracao.sky_objeto_tipo" asp-items="@(new SelectList(Model.oObjeto_tipo,"sky_objeto_tipo","nom_objeto_tipo"))" class="form-control"></select>
+             <span asp-validation-for="Objeto_configuracao.sky_objeto_tipo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Objeto_configuracao.dsc_delimitador_coluna" class="control-label"></label>
@@ -47,13 +48,10 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <input class="btn btn-primary" type="submit" value="Back to list" class="col-sm-6 col-form-label"asp-action="Index" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

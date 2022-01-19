@@ -260,3 +260,4 @@ C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\Metadados.d
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\ref\Metadados.dll
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\Metadados.pdb
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\Metadados.genruntimeconfig.cache
+C:\Users\ricardo\source\repos\Metadados\Metadados\bin\Release\net6.0\jsconfig.json

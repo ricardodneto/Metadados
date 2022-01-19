@@ -1,4 +1,5 @@
 ﻿using CadastroMaterial.Models.Services;
+using Metadados.Data;
 using Metadados.Models;
 using Metadados.Models.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +10,15 @@ namespace Metadados.Controllers
     public class Objeto_tipoController : Controller
     {
         private readonly Objeto_tipo_Services _Objeto_tipo_Services;
+        private readonly MetadadosContext _context;
 
-        public Objeto_tipoController(Objeto_tipo_Services Objeto_tipo_Services)
+
+
+        public Objeto_tipoController(Objeto_tipo_Services Objeto_tipo_Services, MetadadosContext context)
         {
 
             _Objeto_tipo_Services = Objeto_tipo_Services;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -33,10 +38,18 @@ namespace Metadados.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Objeto_tipo Objeto_tipo)
+        public  IActionResult Create(Objeto_tipo Objeto_tipo)
         {
-            _Objeto_tipo_Services.Insert(Objeto_tipo);
-            return RedirectToAction("Index");
+            //_Objeto_tipo_Services.Insert(Objeto_tipo);
+            //return RedirectToAction("Index");
+
+            if (ModelState.IsValid)
+            {
+                _context.Add(Objeto_tipo);
+                 _context.SaveChanges();  
+                return RedirectToAction(nameof(Index));
+            }
+            return View(Objeto_tipo);
 
         }
         public IActionResult Delete(int? id)

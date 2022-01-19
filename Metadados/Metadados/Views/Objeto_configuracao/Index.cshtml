@@ -8,9 +8,6 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -57,14 +54,14 @@
                 @Html.DisplayFor(modelItem => item.num_pular_linha)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.sky_objeto_configuracao">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.sky_objeto_configuracao">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.sky_objeto_configuracao">Delete</a>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.sky_objeto_configuracao">Edit</a>
+                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.sky_objeto_configuracao">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<input class="btn btn-primary" type="button" value="Create" onclick="location.href='@Url.Action("Create", "Objeto_configuracao")'" />
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     

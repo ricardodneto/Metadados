@@ -1,6 +1,7 @@
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\Metadados.exe
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\jsconfig.json
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\Metadados.dll
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\Metadados.runtimeconfig.json
 C:\Users\ricardo\source\repos\Metadados\Metadados\obj\Release\net6.0\PubTmp\Out\Metadados.pdb

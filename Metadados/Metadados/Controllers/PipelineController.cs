@@ -4,6 +4,7 @@ using Metadados.Models.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Metadados.Controllers
 {
     public class PipelineController: Controller
@@ -17,9 +18,9 @@ namespace Metadados.Controllers
                 _Pipeline_Services = Pipeline_Services;
             }
 
-            public IActionResult Index()
+            public IActionResult Index(int pagina = 1)
             {
-                var list = _Pipeline_Services.FindAll();
+            var list = _Pipeline_Services.FindAll();
 
                 return View(list);
             }

@@ -11,7 +11,9 @@
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.1"
+          "Microsoft.TypeScript.MSBuild": "4.5.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.1",
+          "jquery.datatables": "1.10.15"
         },
         "runtime": {
           "Metadados.dll": {}
@@ -23,6 +25,12 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "jQuery/1.7.0": {},
+      "jquery.datatables/1.10.15": {
+        "dependencies": {
+          "jQuery": "1.7.0"
         }
       },
       "MessagePack/2.1.152": {
@@ -1052,6 +1060,7 @@
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.TypeScript.MSBuild/4.5.3": {},
       "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
         "dependencies": {
           "MessagePack": "2.1.152",
@@ -2201,6 +2210,20 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "jQuery/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UEZuBreHZNLao3z9zNPeSadyoPwKDP/5kFh+Mn1Pm9ZS0czk7bv0O6RreloGSIMAfTLZCiigNkuPb2bXKtUM+g==",
+      "path": "jquery/1.7.0",
+      "hashPath": "jquery.1.7.0.nupkg.sha512"
+    },
+    "jquery.datatables/1.10.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9zRZ5zYafJHOwLU6sWoTM/agRx/dlu0HGQpGD/hEvqSEUJhSQjqJNTq77I97B+LCbh4eJrmNDS9PENiYY+0Isg==",
+      "path": "jquery.datatables/1.10.15",
+      "hashPath": "jquery.datatables.1.10.15.nupkg.sha512"
+    },
     "MessagePack/2.1.152": {
       "type": "package",
       "serviceable": true,
@@ -2571,6 +2594,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.TypeScript.MSBuild/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbkdrznlIK1ylAGrjz6tHXl9v1QJIorCLCJqzG+Enb+WJTFn9g7i95F7dt5+i+9ge1jiQqwl3YLOP/tLd6onfg==",
+      "path": "microsoft.typescript.msbuild/4.5.3",
+      "hashPath": "microsoft.typescript.msbuild.4.5.3.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
       "type": "package",

@@ -19,6 +19,7 @@
             <div class="form-group">
              <label asp-for="Objeto_localizacao.sky_localizacao_tipo" class="control-label"></label>
              <select asp-for="Objeto_localizacao.sky_localizacao_tipo" asp-items="@(new SelectList(Model.oLocalizacao_tipo,"sky_localizacao_tipo","nom_localizacao_tipo"))" class="form-control"></select>
+             <span asp-validation-for="Objeto_localizacao.sky_localizacao_tipo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Objeto_localizacao.nom_objeto_identificador" class="control-label"></label>
@@ -52,14 +53,13 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <input class="btn btn-primary" type="submit" value="Back to list" class="col-sm-6 col-form-label"asp-action="Index" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

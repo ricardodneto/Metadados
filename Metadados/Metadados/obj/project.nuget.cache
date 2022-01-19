@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Yt0eXCRQ0MxTsexToM2276w4bvb8vxSHws91qDK4TMnufKFJB2shATxHoO1lIUiIg7DyCHRSRWAcT2MtrvWydQ==",
+  "dgSpecHash": "c9FgsjJy/zUlDq+8B/H+jpxIoWHJ97JfKUARPCeIAYbA2SinNFQaITglKQU3dkav21JMSitVoZEWLQdUUu0l2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\Metadados.csproj",
+  "projectFilePath": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
@@ -58,6 +60,7 @@
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.net.stringtools\\1.0.0\\microsoft.net.stringtools.1.0.0.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.typescript.msbuild\\4.5.3\\microsoft.typescript.msbuild.4.5.3.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.1\\microsoft.visualstudio.web.codegeneration.6.0.1.nupkg.sha512",
     "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.1\\microsoft.visualstudio.web.codegeneration.core.6.0.1.nupkg.sha512",

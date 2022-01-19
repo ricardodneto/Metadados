@@ -7,12 +7,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Metadados.Controllers
 {
-    public class Objeto_configuracaoController: Controller
+    public class Objeto_configuracaoController : Controller
     {
 
         private readonly Objeto_configuracao_Service _Objeto_configuracao_Service;
         private readonly Objeto_tipo_Services _Objeto_tipo_Services;
- 
+
 
         public Objeto_configuracaoController(Objeto_configuracao_Service Objeto_configuracao_Service, Objeto_tipo_Services Objeto_tipo_Services)
         {
@@ -39,17 +39,27 @@ namespace Metadados.Controllers
 
             // Testar sem a variavel OList
             oObjetoViewModel.oObjeto_tipo = oListObjeto_tipo;
-        
+
 
             return View(oObjetoViewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Objeto_configuracao Objeto_configuracao)
-        {
-            _Objeto_configuracao_Service.Insert(Objeto_configuracao);
-            return RedirectToAction("Index");
+        public IActionResult Create(Objeto_configuracao Objeto_configuracao){
+            ObjetoconfiguracaoViewModel oObjetoViewModel = new ObjetoconfiguracaoViewModel();
+            oObjetoViewModel.Objeto_configuracao = Objeto_configuracao;
+            oObjetoViewModel.oObjeto_tipo = _Objeto_tipo_Services.FindAll();
+   
+           
+
+            if (ModelState.IsValid)
+            {
+                _Objeto_configuracao_Service.Insert(Objeto_configuracao);
+                return RedirectToAction("Index");
+            }
+           
+            return View(oObjetoViewModel);
 
         }
         public IActionResult Delete(int? id)

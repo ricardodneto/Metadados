@@ -1,8 +1,6 @@
 ﻿@model  Metadados.Models.Objeto_tipo
 
 
-
-
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,14 +21,12 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <input class="btn btn-primary" type="submit" value="Back to list" class="col-sm-6 col-form-label"asp-action="Index" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

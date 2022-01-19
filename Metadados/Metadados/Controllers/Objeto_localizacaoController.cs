@@ -48,8 +48,17 @@ namespace Metadados.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Objeto_localizacao Objeto_localizacao)
         {
-            _Objeto_localizacao_Services.Insert(Objeto_localizacao);
-            return RedirectToAction("Index");
+            Objeto_localizacaoViewModel oObjetoViewModel = new Objeto_localizacaoViewModel();
+            oObjetoViewModel.Objeto_localizacao = Objeto_localizacao;
+            oObjetoViewModel.oLocalizacao_tipo = _Localizacao_tipo_Services.FindAll();
+
+            if (ModelState.IsValid)
+            {
+                _Objeto_localizacao_Services.Insert(Objeto_localizacao);
+                return RedirectToAction("Index");
+            }
+
+            return View(oObjetoViewModel);
 
         }
         public IActionResult Delete(int? id)

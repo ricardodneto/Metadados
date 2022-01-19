@@ -45,14 +45,14 @@
             </td>
 
             <td>
-                <a asp-action="Edit" asp-route-id="@item.sky_mapeamento">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.sky_mapeamento">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.sky_mapeamento">Delete</a>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.sky_mapeamento">Edit</a>
+                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.sky_mapeamento">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<input class="btn btn-primary" type="button" value="Create" onclick="location.href='@Url.Action("Create", "Mapeamento")'" />
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\Metadados.csproj": {}
+    "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\Metadados.csproj": {
+    "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\Metadados.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj",
         "projectName": "Metadados",
-        "projectPath": "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\Metadados.csproj",
+        "projectPath": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj",
         "packagesPath": "C:\\Users\\ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo\\source\\repos\\Metadados\\Metadados\\obj\\",
+        "outputPath": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,9 +54,19 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
             }
           },
           "imports": [
