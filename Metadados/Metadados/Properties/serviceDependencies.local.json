@@ -1,16 +1,16 @@
 {
   "dependencies": {
     "mssql1": {
-      "secretStore": "LocalSecretsFile",
+      "secretStore": "AzureKeyVault",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/webfullstack/databases/DB_Metadados",
       "type": "mssql.azure",
       "connectionId": "ConnectionStrings:MetadadosContext"
     },
-    "secrets1": {
+    "secrets2": {
       "secretStore": null,
-      "resourceId": null,
-      "type": "secrets.user",
-      "connectionId": null
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/kv-metadados",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
     }
   }
 }

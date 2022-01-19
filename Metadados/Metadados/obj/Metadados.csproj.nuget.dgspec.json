@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj": {}
+    "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\Metadados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj": {
+    "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\Metadados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj",
+        "projectUniqueName": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\Metadados.csproj",
         "projectName": "Metadados",
-        "projectPath": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\Metadados.csproj",
-        "packagesPath": "C:\\Users\\ricardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo\\PROJETO_METADADOS_ANTIGO\\Metadados\\Metadados\\obj\\",
+        "projectPath": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\Metadados.csproj",
+        "packagesPath": "C:\\Users\\MVI_R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MVI_R\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -53,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.22, )"
             },
             "Microsoft.TypeScript.MSBuild": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -87,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

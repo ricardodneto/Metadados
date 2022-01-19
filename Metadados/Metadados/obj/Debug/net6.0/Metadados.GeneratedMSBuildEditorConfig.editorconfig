@@ -8,149 +8,149 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Metadados
 build_property.RootNamespace = Metadados
-build_property.ProjectDir = C:\Users\ricardo\PROJETO_METADADOS_ANTIGO\Metadados\Metadados\
+build_property.ProjectDir = C:\Users\MVI_R\Source\Repos\Metadados\Metadados\Metadados\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ricardo\PROJETO_METADADOS_ANTIGO\Metadados\Metadados
+build_property.MSBuildProjectDirectory = C:\Users\MVI_R\Source\Repos\Metadados\Metadados\Metadados
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Home/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Home/Privacy.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Localizacao_tipo/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Localizacao_tipo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxpemFjYW9fdGlwb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Localizacao_tipo/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Localizacao_tipo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxpemFjYW9fdGlwb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Localizacao_tipo/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Localizacao_tipo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxpemFjYW9fdGlwb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Localizacao_tipo/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Localizacao_tipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxpemFjYW9fdGlwb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Mapeamento/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Mapeamento/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwZWFtZW50b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Mapeamento/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Mapeamento/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwZWFtZW50b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Mapeamento/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Mapeamento/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwZWFtZW50b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Mapeamento/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Mapeamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwZWFtZW50b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_configuracao/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_configuracao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2NvbmZpZ3VyYWNhb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_configuracao/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_configuracao/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2NvbmZpZ3VyYWNhb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_configuracao/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_configuracao/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2NvbmZpZ3VyYWNhb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_configuracao/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_configuracao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2NvbmZpZ3VyYWNhb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_localizacao/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_localizacao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2xvY2FsaXphY2FvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_localizacao/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_localizacao/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2xvY2FsaXphY2FvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_localizacao/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_localizacao/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2xvY2FsaXphY2FvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_localizacao/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_localizacao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX2xvY2FsaXphY2FvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_tipo/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_tipo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX3RpcG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_tipo/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_tipo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX3RpcG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_tipo/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_tipo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX3RpcG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Objeto_tipo/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Objeto_tipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZXRvX3RpcG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Pipeline/Create.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Pipeline/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlwZWxpbmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Pipeline/Delete.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Pipeline/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlwZWxpbmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Pipeline/Edit.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Pipeline/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlwZWxpbmVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Pipeline/Index.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Pipeline/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlwZWxpbmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Shared/Error.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/_ViewImports.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/_ViewStart.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricardo/PROJETO_METADADOS_ANTIGO/Metadados/Metadados/Views/Shared/_Layout.cshtml]
+[C:/Users/MVI_R/Source/Repos/Metadados/Metadados/Metadados/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wf8vaf9hex

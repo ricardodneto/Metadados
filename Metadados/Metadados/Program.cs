@@ -3,8 +3,15 @@ using Metadados.Models;
 using Metadados.Models.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Azure.Identity;
+using Microsoft.Azure.Services.AppAuthentication;
+using Microsoft.Azure.KeyVault;
+using Microsoft.Extensions.Configuration.AzureKeyVault;
 
 var builder = WebApplication.CreateBuilder(args);
+
+string keyVaultEndpoint = Environment.GetEnvironmentVariable("VaultUri").ToString();
+builder.Configuration.AddAzureKeyVault(keyVaultEndpoint, "8e961707-0d57-4859-a265-aef1d06144b6", "Bg77Q~HuIGMLqiAFvISQKWgljXU9~vak~qj_K") ;
 
 builder.Services.AddDbContext<MetadadosContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MetadadosContext")));
