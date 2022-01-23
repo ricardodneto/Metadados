@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NtZIUZZYr+gatWC43/HOEE7ZtiQSPTIcFyKKkhzvWfQ=",
+  "Hash": "AewE3f27fmQKFJsOJGHjXo6MCAusrHD6cqNbfeiCOXs=",
   "Source": "Metadados",
   "BasePath": "_content/Metadados",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\wwwroot\\img\\logo.png",
+      "SourceId": "Metadados",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\wwwroot\\",
+      "BasePath": "_content/Metadados",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\MVI_R\\Source\\Repos\\Metadados\\Metadados\\Metadados\\wwwroot\\js\\site.js",
